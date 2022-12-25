@@ -1,12 +1,10 @@
 {
-  "homepage": "https://Sunny-64.github.io/todo-list",
   "name": "todo-list",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "gh-pages": "^4.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1"
@@ -15,8 +13,6 @@
     "typescript": "4.9.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
